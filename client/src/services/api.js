@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an Axios instance
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api', // Uses env var in production, localhost in development
+  baseURL: import.meta.env.VITE_API_URL || 'https://event-manager-zg9y.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
